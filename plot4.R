@@ -45,7 +45,7 @@ par(mfrow = c(2,2));
 
 # plot 1
 with(subsetConsumption, 
-     plot(datetime, globalActivePower, type="l", ylab = "Global Active Power (kilowatts)", xlab = ""))
+     plot(datetime, globalActivePower, type="l", ylab = "Global Active Power", xlab = ""))
 
 # plot 2
 with(subsetConsumption, 
